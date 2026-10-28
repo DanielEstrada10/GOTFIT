@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOTFIT - Gimnasio</title>
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Estilos personalizados -->
+    <link href="css/estilos.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Barra de Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+        <div class="container">
+            <a class="navbar-brand font-chilanka" href="#">GOTFIT</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#nosotros">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección Hero / Principal -->
+    <header class="hero-section text-white text-center py-5">
+        <div class="container py-5">
+            <h1 class="display-4 font-chilanka fw-bold">Transforma tu cuerpo con GOTFIT</h1>
+            <p class="lead my-4">Entrena al siguiente nivel con nuestras rutinas y equipos profesionales.</p>
+            <a href="#contacto" class="btn btn-primary btn-lg shadow">¡Empieza Hoy!</a>
+        </div>
+    </header>
+
+    <!-- Sección de Servicios -->
+    <section id="servicios" class="container py-5">
+        <h2 class="text-center mb-5 font-chilanka">Nuestros Servicios</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card shadow-card h-100 border-0 p-3">
+                    <div class="card-body text-center">
+                        <h3 class="font-chilanka h4">Musculación</h3>
+                        <p class="text-muted">Equipamiento de alta calidad para hipertrofia y fuerza.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-card h-100 border-0 p-3">
+                    <div class="card-body text-center">
+                        <h3 class="font-chilanka h4">Cardio & HIIT</h3>
+                        <p class="text-muted">Quema calorías y mejora tu resistencia cardiovascular.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-card h-100 border-0 p-3">
+                    <div class="card-body text-center">
+                        <h3 class="font-chilanka h4">Entrenamiento Personal</h3>
+                        <p class="text-muted">Planes adaptados a tus metas individuales.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4 font-chilanka">Contáctanos</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Correo electrónico</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensaje" class="form-label">Mensaje</label>
+                            <textarea class="form-control" id="mensaje" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-dark w-100">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">&copy; 2026 GOTFIT. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
